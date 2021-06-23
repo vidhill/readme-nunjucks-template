@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "description": "Script that uses nunjucks to replaces any values with properties from package.json",
     "main": "index.js",
+    "bin": "cli.js",
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
