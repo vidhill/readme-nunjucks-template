@@ -53,5 +53,9 @@
     "jest-junit": {
         "outputDirectory": "jest-report",
         "outputName": "junit.xml"
+    },
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "nunjucks": "^3.2.3"
     }
 }
