@@ -57,5 +57,8 @@
     "dependencies": {
         "chalk": "^4.1.1",
         "nunjucks": "^3.2.3"
+    },
+    "engines": {
+        "node": ">=11.14.0"
     }
 }
