@@ -1,8 +1,9 @@
 {
-    "name": "template-node-js-project",
-    "version": "1.0.0",
-    "description": "Template simple node.js application",
+    "name": "@vidhill/readme-nunjucks-template",
+    "version": "0.0.0",
+    "description": "Script that uses nunjucks to replaces any values with properties from package.json",
     "main": "index.js",
+    "bin": "cli.js",
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
@@ -18,15 +19,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/template-node-js-project.git"
+        "url": "git+https://github.com/vidhill/readme-nunjucks-template.git"
     },
-    "keywords": [],
+    "keywords": [
+        "readme",
+        "nunjucks",
+        "markdown"
+    ],
     "author": "David Hill",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/vidhill/template-node-js-project/issues"
+        "url": "https://github.com/vidhill/readme-nunjucks-template/issues"
     },
-    "homepage": "https://github.com/vidhill/template-node-js-project#readme",
+    "homepage": "https://github.com/vidhill/readme-nunjucks-template#readme",
     "devDependencies": {
         "eslint": "^7.29.0",
         "eslint-config-prettier": "^8.3.0",
@@ -48,5 +53,9 @@
     "jest-junit": {
         "outputDirectory": "jest-report",
         "outputName": "junit.xml"
+    },
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "nunjucks": "^3.2.3"
     }
 }
