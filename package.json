@@ -56,6 +56,10 @@
     },
     "dependencies": {
         "chalk": "^4.1.1",
-        "nunjucks": "^3.2.3"
+        "nunjucks": "^3.2.3",
+        "yargs": "^16.2.0"
+    },
+    "engines": {
+        "node": ">=11.14.0"
     }
 }
